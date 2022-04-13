@@ -1,0 +1,20 @@
+PODS:
+  - LanguageManager-iOS (1.2.5)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - LanguageManager-iOS
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - LanguageManager-iOS
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 70bd22cc9944a1dada3d917665116146da3ce8f9
+
+COCOAPODS: 1.11.2

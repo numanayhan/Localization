@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Localizations-LocalizationsUITests/Pods-Localizations-LocalizationsUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LanguageManager-iOS/LanguageManager_iOS.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
