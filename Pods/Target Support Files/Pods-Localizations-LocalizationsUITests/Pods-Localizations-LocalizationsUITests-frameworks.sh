@@ -176,12 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LanguageManager-iOS/LanguageManager_iOS.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
+  install_framework "/Users/etuzun/Repos/Edition/Localization/.rugby/build/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/LanguageManager-iOS/LanguageManager_iOS.framework"
+  install_framework "/Users/etuzun/Repos/Edition/Localization/.rugby/build/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/TinyConstraints/TinyConstraints.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LanguageManager-iOS/LanguageManager_iOS.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
+  install_framework "/Users/etuzun/Repos/Edition/Localization/.rugby/build/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/LanguageManager-iOS/LanguageManager_iOS.framework"
+  install_framework "/Users/etuzun/Repos/Edition/Localization/.rugby/build/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/TinyConstraints/TinyConstraints.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
